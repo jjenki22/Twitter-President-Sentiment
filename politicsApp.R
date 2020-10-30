@@ -5,11 +5,11 @@ library(ggplot2)
 library(dplyr)
 library(DT)
 
-api_key <- "Xq3x4pFiPMyD82jjsBrcAx34N"
-api_secret_key <- "loQhP3EnOuAF0qT3xluIbZsTRtSaAdLhjoI34NGrOymWs1RJ5Q"
-bearer_token <- "AAAAAAAAAAAAAAAAAAAAAPMBIAEAAAAAfgM31WXH3o9Qf5y%2BjqqP4vdBiNw%3DTHDKGdVXdavWtAZisWPy5fMM4JwZHdJZbkZVFla0YorgALRtNq"
-access_token <- "1056354318142578689-mH77U56HMNjYH70nhcgyGokrgPVkKQ"
-access_token_secret <- "ktjj7nCxxjVu2oHQIV2zcT8NJkJYLOIdgh4m7LcJd0JbU"
+api_key <- "Add API Key"
+api_secret_key <- "Add API Secret Key"
+bearer_token <- "Add Bearer Token"
+access_token <- "Add Access Token"
+access_token_secret <- "Add Access Token Secret
 
 server <- function(input, output) {
   searchResults <- eventReactive(input$search, {
